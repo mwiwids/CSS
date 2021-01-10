@@ -1,0 +1,31 @@
+/* Color Name */
+header {
+  background: teal;
+  height: 100px;
+  padding: 50px;
+}
+
+/* Hexadecimal, First 2 digits is Red, Mid 2 digits is Green, Last 2 digits is Blue */
+p {
+  color: #b92929;
+}
+
+/* RGB, Red Green Blue (0~255) */
+.rgb {
+  color: rgb(188, 247, 165);
+}
+
+/* RGBA, A = Alpha or Transparancy */
+.bg-rgba {
+  background: rgba(29, 12, 1, 0.623);
+}
+
+/* HSL, Hue (0~360), Saturation & Light (0%~100%) */
+.hsl {
+  color: hsl(324, 70%, 40%);
+}
+
+/* HSLA */
+.bg-hsla {
+    background: hsla(267, 80%, 45%, 0.6);
+}
