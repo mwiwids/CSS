@@ -1,0 +1,42 @@
+/* Selector Tag */
+div {
+  color: blue;
+}
+
+/* Selector Class */
+.pink {
+  color: white;
+  background: pink;
+  padding: 5px;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-teal {
+  background: teal;
+}
+
+/* Selector ID */
+#header {
+    background: navy;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+/* Selector Attribute */
+input[type=text] {
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    border: 1px solid yellow;
+}
+
+/* Selector Universal */
+* {
+    /* border: 1px solid grey; */
+    padding: 10px;
+    margin: 5px;
+}
